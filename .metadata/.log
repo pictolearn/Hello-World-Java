@@ -182,3 +182,21 @@ Caused by: java.util.ConcurrentModificationException
 	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
 	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
 	... 23 more
+!SESSION 2017-03-21 23:00:57.818 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-03-21 23:01:15.251
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\agane'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-03-21 23:01:23.307
+!MESSAGE which: no git in (/usr/local/bin:/usr/bin:/cygdrive/c/Program Files/Java/jre1.8.0_92/bin/server:/cygdrive/c/Program Files/Java/jre1.8.0_92/bin:/cygdrive/c/Program Files/Java/jre1.8.0_92/lib/amd64:/cygdrive/c/Program Files/Docker/Docker/Resources/bin:/cygdrive/c/ProgramData/Oracle/Java/javapath:/cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Program Files (x86)/Intel/OpenCL SDK/2.0/bin/x86:/cygdrive/c/Program Files (x86)/Intel/OpenCL SDK/2.0/bin/x64:/cygdrive/c/Program Files/Intel/WiFi/bin:/cygdrive/c/Program Files/Common Files/Intel/WirelessCommon:/cygdrive/c/Program Files (x86)/Intel/Services/IPT:/cygdrive/c/Program Files (x86)/Lenovo/Password Manager:/cygdrive/c/Program Files (x86)/Lenovo/Access Connections:/cygdrive/c/Program Files (x86)/Windows Live/Shared:/cygdrive/c/Windows/system32/config/systemprofile/.dnx/bin:/cygdrive/c/Program Files/Microsoft DNX/Dnvm:/cygdrive/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/cygdrive/e/Softwares/nodejs:/cygdrive/c/Program Files (x86)/Skype/Phone:/cygdrive/c/ProgramData/Oracle/Java/javapath:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem:/cygdrive/c/WINDOWS/System32/WindowsPowerShell/v1.0:/cygdrive/c/Program Files (x86)/Intel/OpenCL SDK/2.0/bin/x86:/cygdrive/c/Program Files (x86)/Intel/OpenCL SDK/2.0/bin/x64:/cygdrive/c/Program Files/Intel/WiFi/bin:/cygdrive/c/Program Files/Common Files/Intel/WirelessCommon:/cygdrive/c/Program Files (x86)/Intel/Services/IPT:/cygdrive/c/Program Files (x86)/Lenovo/Password Manager:/cygdrive/c/Program Files (x86)/Lenovo/Access Connections:/cygdrive/c/Program Files (x86)/Skype/Phone:/cygdrive/c/Program Files (x86)/Windows Live/Shared:/cygdrive/c/WINDOWS/system32/config/systemprofile/.dnx/bin:/cygdrive/c/Program Files/Microsoft DNX/Dnvm:/cygdrive/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/cygdrive/e/Softwares/nodejs:/cygdrive/c/Program Files/Common Files/Intel/Wireless:/usr/bin:/cygdrive/e/Softwares/apache-maven-3.3.9/bin:/cygdrive/c/Users/agane/AppData/Local/Microsoft/WindowsApps:/cygdrive/e/Softwares/Microsoft VS Code/bin:/cygdrive/c/Windows/system32)
+
