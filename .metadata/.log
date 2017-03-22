@@ -1,0 +1,184 @@
+!SESSION 2017-03-21 19:45:46.600 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-03-21 19:46:22.164
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\agane'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-03-21 19:56:09.590
+!MESSAGE which: no git in (/usr/local/bin:/usr/bin:/cygdrive/c/Program Files/Java/jre1.8.0_92/bin/server:/cygdrive/c/Program Files/Java/jre1.8.0_92/bin:/cygdrive/c/Program Files/Java/jre1.8.0_92/lib/amd64:/cygdrive/c/Program Files/Docker/Docker/Resources/bin:/cygdrive/c/ProgramData/Oracle/Java/javapath:/cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Program Files (x86)/Intel/OpenCL SDK/2.0/bin/x86:/cygdrive/c/Program Files (x86)/Intel/OpenCL SDK/2.0/bin/x64:/cygdrive/c/Program Files/Intel/WiFi/bin:/cygdrive/c/Program Files/Common Files/Intel/WirelessCommon:/cygdrive/c/Program Files (x86)/Intel/Services/IPT:/cygdrive/c/Program Files (x86)/Lenovo/Password Manager:/cygdrive/c/Program Files (x86)/Lenovo/Access Connections:/cygdrive/c/Program Files (x86)/Windows Live/Shared:/cygdrive/c/Windows/system32/config/systemprofile/.dnx/bin:/cygdrive/c/Program Files/Microsoft DNX/Dnvm:/cygdrive/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/cygdrive/e/Softwares/nodejs:/cygdrive/c/Program Files (x86)/Skype/Phone:/cygdrive/c/ProgramData/Oracle/Java/javapath:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem:/cygdrive/c/WINDOWS/System32/WindowsPowerShell/v1.0:/cygdrive/c/Program Files (x86)/Intel/OpenCL SDK/2.0/bin/x86:/cygdrive/c/Program Files (x86)/Intel/OpenCL SDK/2.0/bin/x64:/cygdrive/c/Program Files/Intel/WiFi/bin:/cygdrive/c/Program Files/Common Files/Intel/WirelessCommon:/cygdrive/c/Program Files (x86)/Intel/Services/IPT:/cygdrive/c/Program Files (x86)/Lenovo/Password Manager:/cygdrive/c/Program Files (x86)/Lenovo/Access Connections:/cygdrive/c/Program Files (x86)/Skype/Phone:/cygdrive/c/Program Files (x86)/Windows Live/Shared:/cygdrive/c/WINDOWS/system32/config/systemprofile/.dnx/bin:/cygdrive/c/Program Files/Microsoft DNX/Dnvm:/cygdrive/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/cygdrive/e/Softwares/nodejs:/cygdrive/c/Program Files/Common Files/Intel/Wireless:/usr/bin:/cygdrive/e/Softwares/apache-maven-3.3.9/bin:/cygdrive/c/Users/agane/AppData/Local/Microsoft/WindowsApps:/cygdrive/e/Softwares/Microsoft VS Code/bin:/cygdrive/c/Windows/system32)
+
+
+!ENTRY org.eclipse.epp.mpc.ui 2 0 2017-03-21 19:59:50.780
+!MESSAGE Error restoring marketplace info cache file
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at java.beans.XMLDecoder.readObject(Unknown Source)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceInfo.load(MarketplaceInfo.java:321)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceInfo.getInstance(MarketplaceInfo.java:302)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.<init>(MarketplaceDiscoveryStrategy.java:102)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard.initializeCatalog(MarketplaceWizard.java:892)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard.initializeInitialSelection(MarketplaceWizard.java:260)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceViewer.updateCatalog(MarketplaceViewer.java:954)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplacePage.safeUpdateCatalog(MarketplacePage.java:764)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplacePage.access$11(MarketplacePage.java:761)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplacePage$8.run(MarketplacePage.java:754)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3827)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.epp.internal.mpc.ui.commands.MarketplaceWizardCommand.execute(MarketplaceWizardCommand.java:199)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceClientService.execute(MarketplaceClientService.java:121)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceClientService.open(MarketplaceClientService.java:99)
+	at org.eclipse.epp.internal.mpc.ui.AskMarketPlaceForFileSupportStrategy$1$1.runInUIThread(AskMarketPlaceForFileSupportStrategy.java:95)
+	at org.eclipse.ui.progress.UIJob$1.run(UIJob.java:97)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3827)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+!SESSION 2017-03-21 20:01:05.690 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/C:/Users/agane/Desktop/Docker/Hello-World-Java/ -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-03-21 20:01:24.719
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\agane'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-03-21 20:01:30.825
+!MESSAGE which: no git in (/usr/local/bin:/usr/bin:/cygdrive/c/Program Files/Java/jre1.8.0_92/bin/server:/cygdrive/c/Program Files/Java/jre1.8.0_92/bin:/cygdrive/c/Program Files/Java/jre1.8.0_92/lib/amd64:/cygdrive/c/Program Files/Docker/Docker/Resources/bin:/cygdrive/c/ProgramData/Oracle/Java/javapath:/cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Program Files (x86)/Intel/OpenCL SDK/2.0/bin/x86:/cygdrive/c/Program Files (x86)/Intel/OpenCL SDK/2.0/bin/x64:/cygdrive/c/Program Files/Intel/WiFi/bin:/cygdrive/c/Program Files/Common Files/Intel/WirelessCommon:/cygdrive/c/Program Files (x86)/Intel/Services/IPT:/cygdrive/c/Program Files (x86)/Lenovo/Password Manager:/cygdrive/c/Program Files (x86)/Lenovo/Access Connections:/cygdrive/c/Program Files (x86)/Windows Live/Shared:/cygdrive/c/Windows/system32/config/systemprofile/.dnx/bin:/cygdrive/c/Program Files/Microsoft DNX/Dnvm:/cygdrive/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/cygdrive/e/Softwares/nodejs:/cygdrive/c/Program Files (x86)/Skype/Phone:/cygdrive/c/ProgramData/Oracle/Java/javapath:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem:/cygdrive/c/WINDOWS/System32/WindowsPowerShell/v1.0:/cygdrive/c/Program Files (x86)/Intel/OpenCL SDK/2.0/bin/x86:/cygdrive/c/Program Files (x86)/Intel/OpenCL SDK/2.0/bin/x64:/cygdrive/c/Program Files/Intel/WiFi/bin:/cygdrive/c/Program Files/Common Files/Intel/WirelessCommon:/cygdrive/c/Program Files (x86)/Intel/Services/IPT:/cygdrive/c/Program Files (x86)/Lenovo/Password Manager:/cygdrive/c/Program Files (x86)/Lenovo/Access Connections:/cygdrive/c/Program Files (x86)/Skype/Phone:/cygdrive/c/Program Files (x86)/Windows Live/Shared:/cygdrive/c/WINDOWS/system32/config/systemprofile/.dnx/bin:/cygdrive/c/Program Files/Microsoft DNX/Dnvm:/cygdrive/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/cygdrive/e/Softwares/nodejs:/cygdrive/c/Program Files/Common Files/Intel/Wireless:/usr/bin:/cygdrive/e/Softwares/apache-maven-3.3.9/bin:/cygdrive/c/Users/agane/AppData/Local/Microsoft/WindowsApps:/cygdrive/e/Softwares/Microsoft VS Code/bin:/cygdrive/c/Windows/system32)
+
+
+!ENTRY org.eclipse.linuxtools.docker.ui 4 4 2017-03-21 20:08:39.703
+!MESSAGE Unable to find the launch configuration to build the Docker image from the selected Dockerfile.
+!SESSION 2017-03-21 20:44:12.940 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-03-21 20:45:06.948
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\agane'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-21 20:45:08.590
+!MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.docker.ui.dockerContainersView' id and the 'Docker Containers' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-21 20:45:08.641
+!MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.docker.ui.dockerImagesView' id and the 'Docker Images' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-21 20:45:08.750
+!MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.docker.ui.dockerExplorerView' id and the 'Docker Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-21 20:45:08.779
+!MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.docker.ui.dockerImageHierarchyView' id and the 'Docker Image Hierarchy' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-03-21 20:45:12.813
+!MESSAGE which: no git in (/usr/local/bin:/usr/bin:/cygdrive/c/Program Files/Java/jre1.8.0_92/bin/server:/cygdrive/c/Program Files/Java/jre1.8.0_92/bin:/cygdrive/c/Program Files/Java/jre1.8.0_92/lib/amd64:/cygdrive/c/Program Files/Docker/Docker/Resources/bin:/cygdrive/c/ProgramData/Oracle/Java/javapath:/cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Program Files (x86)/Intel/OpenCL SDK/2.0/bin/x86:/cygdrive/c/Program Files (x86)/Intel/OpenCL SDK/2.0/bin/x64:/cygdrive/c/Program Files/Intel/WiFi/bin:/cygdrive/c/Program Files/Common Files/Intel/WirelessCommon:/cygdrive/c/Program Files (x86)/Intel/Services/IPT:/cygdrive/c/Program Files (x86)/Lenovo/Password Manager:/cygdrive/c/Program Files (x86)/Lenovo/Access Connections:/cygdrive/c/Program Files (x86)/Windows Live/Shared:/cygdrive/c/Windows/system32/config/systemprofile/.dnx/bin:/cygdrive/c/Program Files/Microsoft DNX/Dnvm:/cygdrive/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/cygdrive/e/Softwares/nodejs:/cygdrive/c/Program Files (x86)/Skype/Phone:/cygdrive/c/ProgramData/Oracle/Java/javapath:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem:/cygdrive/c/WINDOWS/System32/WindowsPowerShell/v1.0:/cygdrive/c/Program Files (x86)/Intel/OpenCL SDK/2.0/bin/x86:/cygdrive/c/Program Files (x86)/Intel/OpenCL SDK/2.0/bin/x64:/cygdrive/c/Program Files/Intel/WiFi/bin:/cygdrive/c/Program Files/Common Files/Intel/WirelessCommon:/cygdrive/c/Program Files (x86)/Intel/Services/IPT:/cygdrive/c/Program Files (x86)/Lenovo/Password Manager:/cygdrive/c/Program Files (x86)/Lenovo/Access Connections:/cygdrive/c/Program Files (x86)/Skype/Phone:/cygdrive/c/Program Files (x86)/Windows Live/Shared:/cygdrive/c/WINDOWS/system32/config/systemprofile/.dnx/bin:/cygdrive/c/Program Files/Microsoft DNX/Dnvm:/cygdrive/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/cygdrive/e/Softwares/nodejs:/cygdrive/c/Program Files/Common Files/Intel/Wireless:/usr/bin:/cygdrive/e/Softwares/apache-maven-3.3.9/bin:/cygdrive/c/Users/agane/AppData/Local/Microsoft/WindowsApps:/cygdrive/e/Softwares/Microsoft VS Code/bin:/cygdrive/c/Users/agane/Downloads)
+
+!SESSION 2017-03-21 21:03:43.843 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/C:/Users/agane/Desktop/Docker/Hello-World-Java/ -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-03-21 21:04:00.575
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\agane'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-03-21 21:11:01.083
+!MESSAGE which: no git in (/usr/local/bin:/usr/bin:/cygdrive/c/Program Files/Java/jre1.8.0_92/bin/server:/cygdrive/c/Program Files/Java/jre1.8.0_92/bin:/cygdrive/c/Program Files/Java/jre1.8.0_92/lib/amd64:/cygdrive/c/Program Files/Docker/Docker/Resources/bin:/cygdrive/c/ProgramData/Oracle/Java/javapath:/cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Program Files (x86)/Intel/OpenCL SDK/2.0/bin/x86:/cygdrive/c/Program Files (x86)/Intel/OpenCL SDK/2.0/bin/x64:/cygdrive/c/Program Files/Intel/WiFi/bin:/cygdrive/c/Program Files/Common Files/Intel/WirelessCommon:/cygdrive/c/Program Files (x86)/Intel/Services/IPT:/cygdrive/c/Program Files (x86)/Lenovo/Password Manager:/cygdrive/c/Program Files (x86)/Lenovo/Access Connections:/cygdrive/c/Program Files (x86)/Windows Live/Shared:/cygdrive/c/Windows/system32/config/systemprofile/.dnx/bin:/cygdrive/c/Program Files/Microsoft DNX/Dnvm:/cygdrive/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/cygdrive/e/Softwares/nodejs:/cygdrive/c/Program Files (x86)/Skype/Phone:/cygdrive/c/ProgramData/Oracle/Java/javapath:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem:/cygdrive/c/WINDOWS/System32/WindowsPowerShell/v1.0:/cygdrive/c/Program Files (x86)/Intel/OpenCL SDK/2.0/bin/x86:/cygdrive/c/Program Files (x86)/Intel/OpenCL SDK/2.0/bin/x64:/cygdrive/c/Program Files/Intel/WiFi/bin:/cygdrive/c/Program Files/Common Files/Intel/WirelessCommon:/cygdrive/c/Program Files (x86)/Intel/Services/IPT:/cygdrive/c/Program Files (x86)/Lenovo/Password Manager:/cygdrive/c/Program Files (x86)/Lenovo/Access Connections:/cygdrive/c/Program Files (x86)/Skype/Phone:/cygdrive/c/Program Files (x86)/Windows Live/Shared:/cygdrive/c/WINDOWS/system32/config/systemprofile/.dnx/bin:/cygdrive/c/Program Files/Microsoft DNX/Dnvm:/cygdrive/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/cygdrive/e/Softwares/nodejs:/cygdrive/c/Program Files/Common Files/Intel/Wireless:/usr/bin:/cygdrive/e/Softwares/apache-maven-3.3.9/bin:/cygdrive/c/Users/agane/AppData/Local/Microsoft/WindowsApps:/cygdrive/e/Softwares/Microsoft VS Code/bin:/cygdrive/c/Users/agane/Downloads)
+
+
+!ENTRY org.eclipse.ui 4 0 2017-03-21 22:11:30.959
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.util.ConcurrentModificationException)
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3827)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+Caused by: java.util.ConcurrentModificationException
+	at java.util.ArrayList$SubList.checkForComodification(Unknown Source)
+	at java.util.ArrayList$SubList.listIterator(Unknown Source)
+	at java.util.AbstractList.listIterator(Unknown Source)
+	at java.util.ArrayList$SubList.iterator(Unknown Source)
+	at org.eclipse.jface.text.AbstractDocument.getPositions(AbstractDocument.java:1615)
+	at org.eclipse.jface.text.source.AnnotationModel.getRegionAnnotationIterator(AnnotationModel.java:714)
+	at org.eclipse.jface.text.source.AnnotationModel.getAnnotationIterator(AnnotationModel.java:676)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doPaint(AnnotationRulerColumn.java:651)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doubleBufferPaint(AnnotationRulerColumn.java:557)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.redraw(AnnotationRulerColumn.java:857)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn$8.run(AnnotationRulerColumn.java:842)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	... 23 more
